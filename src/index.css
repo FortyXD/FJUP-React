@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+    background-color: white;
+}
+#fp-nav ul li:hover a span,
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span,
+#fp-nav ul li a span,
+.fp-slidesNav ul li:hover a span,
+.fp-slidesNav ul li a span {
+    background: white !important;
+}
